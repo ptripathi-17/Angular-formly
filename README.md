@@ -21,7 +21,7 @@ install visualstudioCode editor
 https://code.visualstudio.com/docs?start=true
 
 Create Folder in c drive
-Go to folder through Node command prompt
+Go to folder through Node command prompt   
 ng new projectname
 
 Open created project from Visual Studio Code and run below command from terminal to compile project.
@@ -30,3 +30,16 @@ It will call ng serve to compile application
 
 Open browser and paste below URL
 localhost:4200
+
+Formly is java script library which requires to install module in Angular. Formly offers to make reactive forms through configured fields means dynamic created fields.
+
+Open Angular project in Visual Studio Code and open terminal
+Run below command to install formly.
+npm install @angular/forms @ngx-formly/core @ngx-formly/bootstrap --save
+
+Add below modules in app.module if did not get added automatically.
+import { ReactiveFormsModule } from '@angular/forms';
+import { FormlyModule } from '@ngx-formly/core';
+import { FormlyBootstrapModule } from '@ngx-formly/bootstrap';
+
+Run npm start or ng serve to run project.
