@@ -14,7 +14,7 @@ npm install -g typescript
 install typescript   
 npm install -g @angular/cli 
 
-Check Angular version from CLI
+Check Angular version from Comand Line (CLI)     
 ng version
 
 install visualstudioCode editor
