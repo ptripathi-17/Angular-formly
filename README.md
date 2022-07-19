@@ -10,7 +10,7 @@ If you get error then restart CLI IDE."
 'node' is not recognized as an internal or external command, operable program or batch file."
 
 install typescript  
-npm install -g typescript 
+npm install -g typescript                          
 install typescript   
 npm install -g @angular/cli 
 
